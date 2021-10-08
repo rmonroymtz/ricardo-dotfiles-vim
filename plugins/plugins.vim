@@ -7,25 +7,25 @@ Plug 'morhetz/gruvbox'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 "Configuracion NerdTree
-source ~/.config/vimrc.d/plugins/nerdtree.vim
+source ~/.config/vimrc/plugins/plugins-config/nerdtree.vim
 
 "Configuracion Easymotion
-source ~/.config/vimrc.d/plugins/easymotion.vim
+source ~/.config/vimrc/plugins/plugins-config/easymotion.vim
 
 "Configuración tmux navigator
 Plug 'christoomey/vim-tmux-navigator'
 
 "AirLine Plug
-source ~/.config/vimrc.d/plugins/airline.vim
+source ~/.config/vimrc/plugins/plugins-config/airline.vim
 
 "IndentLine Plug
-source ~/.config/vimrc.d/plugins/indentline.vim
+source ~/.config/vimrc/plugins/plugins-config/indentline.vim
 
-source ~/.config/vimrc.d/plugins/coc.vim
-source ~/.config/vimrc.d/plugins/supertab.vim
+source ~/.config/vimrc/plugins/plugins-config/coc.vim
+source ~/.config/vimrc/plugins/plugins-config/supertab.vim
 
 "Prettier
-source ~/.config/vimrc.d/plugins/prettier.vim
+source ~/.config/vimrc/plugins/plugins-config/prettier.vim
 "Polyglot
 Plug 'sheerun/vim-polyglot' "Archivos de autocompletado
 
