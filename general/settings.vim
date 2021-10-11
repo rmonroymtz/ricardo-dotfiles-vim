@@ -40,4 +40,4 @@ set background=dark
 
 let g:loaded_python_provider = 0
 
-let g:python3_host_prog = '/home/wolf/.local/share/virtualenvs/vimrc-bxz_DoC6/bin/python'
+let g:python3_host_prog = expand('$HOME/.local/share/virtualenvs/vimrc-bxz_DoC6/bin/python3.8')
