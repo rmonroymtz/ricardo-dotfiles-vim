@@ -41,4 +41,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 Plug 'mattn/emmet-vim'
+Plug 'yannickcr/eslint-plugin-react'
+
 call plug#end()
