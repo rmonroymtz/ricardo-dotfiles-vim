@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 pynvim = "*"
+pylint = "*"
+jedi = "*"
 
 [dev-packages]
 

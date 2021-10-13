@@ -1,10 +1,8 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'joshdick/onedark.vim' "Tema one dark vim
-Plug 'baskerville/bubblegum' "Tema bubblegum
-Plug 'NLKNguyen/papercolor-theme' "Tema papercolor
 Plug 'morhetz/gruvbox'
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'phanviet/vim-monokai-pro'
 
 "Configuracion NerdTree
 source ~/.config/vimrc/plugins/plugins-config/nerdtree.vim
@@ -42,5 +40,7 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'mattn/emmet-vim'
 Plug 'yannickcr/eslint-plugin-react'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
