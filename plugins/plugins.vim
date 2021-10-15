@@ -3,6 +3,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'joshdick/onedark.vim' "Tema one dark vim
 Plug 'morhetz/gruvbox'
 Plug 'phanviet/vim-monokai-pro'
+Plug 'sainnhe/gruvbox-material'
 
 "Configuracion NerdTree
 source ~/.config/vimrc/plugins/plugins-config/nerdtree.vim
