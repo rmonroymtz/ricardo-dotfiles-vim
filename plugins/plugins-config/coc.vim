@@ -9,8 +9,8 @@ let g:coc_global_extensions = [
   \ 'coc-eslint',
   \ 'coc-json',
   \ 'coc-sql',
-  \ 'coc-yalm'
-]
+  \ 'coc-yaml',
+  \]
 
 let g:coc_disable_startup_warning = 1
 
