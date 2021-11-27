@@ -4,6 +4,7 @@ Plug 'joshdick/onedark.vim' "Tema one dark vim
 Plug 'morhetz/gruvbox'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'sainnhe/gruvbox-material'
+Plug 'arcticicestudio/nord-vim'
 
 "Configuracion NerdTree
 source ~/.config/vimrc/plugins/plugins-config/nerdtree.vim
