@@ -35,7 +35,7 @@ execute 'set undodir=' . g:vim_data_root . '/undodir'
 
 set termguicolors
 "colorscheme gruvbox-material
-colorscheme onedark
+colorscheme sonokai
 let g:gruvbox_material_contrast_dark='hard'
 let g:gruvbox_material_enable_italic=1
 let g:gruvbox_material_enable_bold=1

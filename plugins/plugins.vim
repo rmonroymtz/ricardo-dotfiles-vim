@@ -5,6 +5,7 @@ Plug 'morhetz/gruvbox'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'sainnhe/gruvbox-material'
 Plug 'arcticicestudio/nord-vim'
+Plug 'sainnhe/sonokai'
 
 "Configuracion NerdTree
 source ~/.config/vimrc/plugins/plugins-config/nerdtree.vim
