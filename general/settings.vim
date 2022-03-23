@@ -35,13 +35,16 @@ execute 'set undodir=' . g:vim_data_root . '/undodir'
 
 set termguicolors
 "colorscheme gruvbox-material
-colorscheme sonokai
+colorscheme onedark
+"colorscheme sonokai
 let g:gruvbox_material_contrast_dark='hard'
 let g:gruvbox_material_enable_italic=1
 let g:gruvbox_material_enable_bold=1
 let g:gruvbox_material_palette='original'
 set background=dark
 
+let g:everforest_background = 'hard'
+
 let g:loaded_python_provider = 0
 
-let g:python3_host_prog = expand('/home/ricardo/.local/share/virtualenvs/vimrc-sPOn7ZSi/bin/python3.9')
+let g:python3_host_prog = expand('/home/ricardo/.local/share/virtualenvs/vimrc-sPOn7ZSi/bin/python3')
