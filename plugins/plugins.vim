@@ -6,6 +6,7 @@ Plug 'phanviet/vim-monokai-pro'
 Plug 'sainnhe/gruvbox-material'
 Plug 'arcticicestudio/nord-vim'
 Plug 'sainnhe/sonokai'
+Plug 'sainnhe/everforest'
 
 "Configuracion NerdTree
 source ~/.config/vimrc/plugins/plugins-config/nerdtree.vim
@@ -46,4 +47,6 @@ Plug 'yannickcr/eslint-plugin-react'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'xuyuanp/nerdtree-git-plugin'
 
+"Mostrar lineas agregadas
+Plug 'airblade/vim-gitgutter'
 call plug#end()
