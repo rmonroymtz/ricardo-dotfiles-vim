@@ -47,4 +47,4 @@ let g:everforest_background = 'hard'
 
 let g:loaded_python_provider = 0
 
-let g:python3_host_prog = expand('/home/ricardo/.local/share/virtualenvs/vimrc-sPOn7ZSi/bin/python3')
+let g:python3_host_prog = expand('$HOME/.local/share/virtualenvs/vimrc-bxz_DoC6/bin/python3')
