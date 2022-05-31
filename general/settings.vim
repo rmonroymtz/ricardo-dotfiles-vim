@@ -1,4 +1,4 @@
-set number relativenumber "Muetra el numero de linea
+set number "Muetra el numero de linea
 set guicursor=
 set guioptions-=T
 
