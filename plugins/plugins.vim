@@ -9,8 +9,9 @@ Plug 'sainnhe/sonokai'
 Plug 'sainnhe/everforest'
 Plug 'APZelos/blamer.nvim'
 
+"Configuracion blamer
 let g:blamer_enabled = 1
-
+let g:blamer_delay = 500
 
 "Configuracion NerdTree
 source ~/.config/vimrc/plugins/plugins-config/nerdtree.vim
