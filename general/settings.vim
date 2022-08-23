@@ -45,6 +45,8 @@ set background=dark
 
 let g:everforest_background = 'hard'
 
+highlight Comment cterm=italic gui=italic
+
 let g:loaded_python_provider = 0
 
 let g:python3_host_prog = expand('$HOME/.local/share/virtualenvs/vimrc-bxz_DoC6/bin/python3')
