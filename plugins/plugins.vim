@@ -29,7 +29,6 @@ source ~/.config/vimrc/plugins/plugins-config/airline.vim
 source ~/.config/vimrc/plugins/plugins-config/indentline.vim
 
 source ~/.config/vimrc/plugins/plugins-config/coc.vim
-source ~/.config/vimrc/plugins/plugins-config/supertab.vim
 
 "Prettier
 source ~/.config/vimrc/plugins/plugins-config/prettier.vim
