@@ -1,4 +1,16 @@
 call plug#begin('~/.local/share/nvim/plugged')
+let g:vim_plug_path = '$HOME/.config/vimrc.d'
+let g:config_list_plug = [
+  \ '/plugins/plugins-config/nerdtree.vim',
+  \ '/plugins/plugins-config/easymotion.vim',
+  \ '/plugins/plugins-config/airline.vim',
+  \ '/plugins/plugins-config/indentline.vim',
+  \ '/plugins/plugins-config/coc.vim',
+  \ '/plugins/plugins-config/prettier.vim']
+
+for f in g:config_list_plug
+  execute 'source ' . g:vim_plug_path . f
+endfor
 
 Plug 'joshdick/onedark.vim' "Tema one dark vim
 Plug 'morhetz/gruvbox'
@@ -13,26 +25,6 @@ Plug 'APZelos/blamer.nvim'
 let g:blamer_enabled = 1
 let g:blamer_delay = 500
 
-"Configuracion NerdTree
-source ~/.config/vimrc/plugins/plugins-config/nerdtree.vim
-
-"Configuracion Easymotion
-source ~/.config/vimrc/plugins/plugins-config/easymotion.vim
-
-"Configuración tmux navigator
-Plug 'christoomey/vim-tmux-navigator'
-
-"AirLine Plug
-source ~/.config/vimrc/plugins/plugins-config/airline.vim
-
-"IndentLine Plug
-source ~/.config/vimrc/plugins/plugins-config/indentline.vim
-
-source ~/.config/vimrc/plugins/plugins-config/coc.vim
-
-"Prettier
-source ~/.config/vimrc/plugins/plugins-config/prettier.vim
-"Polyglot
 Plug 'sheerun/vim-polyglot' "Archivos de autocompletado
 
 Plug 'ryanoasis/vim-devicons' "Iconos de vim
