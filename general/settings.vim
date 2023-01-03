@@ -33,16 +33,10 @@ set nobackup
 set undofile
 execute 'set undodir=' . g:vim_data_root . '/undodir'
 
+
+set background=dark
 set termguicolors
 colorscheme onedark
-"colorscheme sonokai
-let g:gruvbox_material_contrast_dark='hard'
-let g:gruvbox_material_enable_italic=1
-let g:gruvbox_material_enable_bold=1
-let g:gruvbox_material_palette='original'
-set background=dark
-
-let g:everforest_background = 'hard'
 
 highlight Comment cterm=italic gui=italic
 
