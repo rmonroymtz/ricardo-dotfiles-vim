@@ -42,4 +42,4 @@ highlight Comment cterm=italic gui=italic
 
 let g:loaded_python_provider = 0
 
-let g:python3_host_prog = expand('$HOME/.local/share/virtualenvs/vimrc.d-xKTKITNm/bin/python3')
+let g:python3_host_prog = expand('$HOME/.local/share/virtualenvs/vimrc.d-Qi9j0VTd/bin/python3')
