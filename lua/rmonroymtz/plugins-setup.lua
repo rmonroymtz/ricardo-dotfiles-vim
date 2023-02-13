@@ -28,6 +28,7 @@ return packer.startup(function(use)
   use 'nvim-tree/nvim-web-devicons'
   use 'wbthomason/packer.nvim'
   use 'nvim-treesitter/nvim-treesitter'
+  use 'nvim-lua/plenary.nvim'
 
   --System plugins
   use 'nvim-tree/nvim-tree.lua'
@@ -43,4 +44,16 @@ return packer.startup(function(use)
   use 'christoomey/vim-tmux-navigator'
 
   use 'tpope/vim-surround'
+
+  use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
+  use {'nvim-telescope/telescope.nvim', branch = '0.1.x' }
+
+  --Autocompletation
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/cmp-path'
+
+  --Snippets
+
+
 end)
