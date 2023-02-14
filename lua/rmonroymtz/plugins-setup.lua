@@ -39,6 +39,9 @@ return packer.startup(function(use)
   --Theme pluging
   use 'Mofiqul/dracula.nvim'
   use 'navarasu/onedark.nvim'
+  use 'Mofiqul/vscode.nvim'
+  use 'luisiacc/gruvbox-baby'
+  use { "catppuccin/nvim", as = "catppuccin" }
 
   --TMUX Navigations
   use 'christoomey/vim-tmux-navigator'
@@ -54,6 +57,21 @@ return packer.startup(function(use)
   use 'hrsh7th/cmp-path'
 
   --Snippets
+  use 'L3MON4D3/LuaSnip'
+  use 'saadparwaiz1/cmp_luasnip'
+  use 'rafamadriz/friendly-snippets'
+
+
+  --managing & installing lsp servers
+  use 'williamboman/mason.nvim' 
+  use 'williamboman/mason-lspconfig.nvim'
+
+  --configuring lsp servers
+  use 'neovim/nvim-lspconfig'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use {'glepnir/lspsaga.nvim', branch='main'}
+  use 'jose-elias-alvarez/typescript.nvim'
+  use 'onsails/lspkind.nvim'
 
 
 end)

@@ -6,8 +6,8 @@ local newMap = vim.keymap.set
 newMap('', '<Space>v', ':e $MYVIMRC<CR>')
 
 --Tabulaciones 
-newMap('', '<Space><tab>', ':bn<cr>')
-newMap('', '<Space><S-tab>',':bp<cr>')
+--newMap('', '<Space><tab>', ':bn<cr>')
+--newMap('', '<Space><S-tab>',':bp<cr>')
 
 --Tabs controller
 newMap('n', '<Space>to', ':tabnew<CR>')

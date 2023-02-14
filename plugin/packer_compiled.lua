@@ -74,30 +74,85 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  catppuccin = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-path"] = {
     loaded = true,
     path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  cmp_luasnip = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
   ["dracula.nvim"] = {
     loaded = true,
     path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
+  },
+  ["gruvbox-baby"] = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/gruvbox-baby",
+    url = "https://github.com/luisiacc/gruvbox-baby"
+  },
+  ["lspkind.nvim"] = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
+    url = "https://github.com/onsails/lspkind.nvim"
+  },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
+    url = "https://github.com/glepnir/lspsaga.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -139,6 +194,11 @@ _G.packer_plugins = {
     path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["typescript.nvim"] = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/typescript.nvim",
+    url = "https://github.com/jose-elias-alvarez/typescript.nvim"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/vim-surround",
@@ -148,6 +208,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  ["vscode.nvim"] = {
+    loaded = true,
+    path = "/Users/ricardomonroy/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    url = "https://github.com/Mofiqul/vscode.nvim"
   }
 }
 
