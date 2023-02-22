@@ -5,10 +5,6 @@ local newMap = vim.keymap.set
 
 newMap('', '<Space>v', ':e $MYVIMRC<CR>')
 
---Tabulaciones 
---newMap('', '<Space><tab>', ':bn<cr>')
---newMap('', '<Space><S-tab>',':bp<cr>')
-
 --Tabs controller
 newMap('n', '<Space>to', ':tabnew<CR>')
 newMap('n', '<Space>tx', ':tabclose<CR>')
@@ -24,7 +20,7 @@ newMap('n', '<Space>se', '<C-w>=')
 newMap('n', '<Space>sq', ':close<CR>')
 
 --NvinTree Open and close 
-newMap('', '<F2>', ':NvimTreeToggle<CR>')
+newMap('', '<Space>nt', ':NvimTreeToggle<CR>')
 
 --Telescope
 newMap('n', '<Space>ff', '<cmd>Telescope find_files<CR>')
