@@ -1,7 +1,7 @@
 local option = vim.opt
 local cmd = vim.cmd
 
-local status, _ = pcall(cmd, 'colorscheme gruvbox-baby')
+  local status, _ = pcall(cmd, 'colorscheme vscode')
 
 if not status then
   print 'Colorscheme not found!'

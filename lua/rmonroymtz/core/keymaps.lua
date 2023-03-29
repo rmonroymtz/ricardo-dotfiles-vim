@@ -28,3 +28,6 @@ newMap('n', '<Space>fs', '<cmd>Telescope live_grep<CR>')
 newMap('n', '<Space>fc', '<cmd>Telescope grep_string<CR>')
 newMap('n', '<Space>fb', '<cmd>Telescope buffers<CR>')
 newMap('n', '<Space>fh', '<cmd>Telescope help_tags<CR>')
+
+--SaveActions
+newMap('n', '<Space>s', '<cmd>:s<CR>')
