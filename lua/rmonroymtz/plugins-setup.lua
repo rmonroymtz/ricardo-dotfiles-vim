@@ -73,5 +73,12 @@ return packer.startup(function(use)
   use 'jose-elias-alvarez/typescript.nvim'
   use 'onsails/lspkind.nvim'
 
+  --configuring linters and formatting
+  use('jose-elias-alvarez/null-ls.nvim')
+  use('jayp0521/mason-null-ls.nvim')
+
+  if packer_bootstrap then 
+    require('packer').sync()
+  end
 
 end)
