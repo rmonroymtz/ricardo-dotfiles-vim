@@ -9,13 +9,11 @@ nmap <Leader>w :w<CR>
 "Cambiar tamano del buffer
 "Dectando si estamos en mac
 if has('macunix')
-  echo 'macunix'
   nnoremap <D-j> :resize -5<CR>
   nnoremap <D-k> :resize +5<CR>
   nnoremap <D-h> :vertical resize -5<CR>
   nnoremap <D-l> :vertical resize +5<CR>
 else
-  echo 'otro sistemas'
   nnoremap <M-j> :resize -5<CR>
   nnoremap <M-k> :resize +5<CR>
   nnoremap <M-h> :vertical resize -5<CR>

@@ -9,7 +9,11 @@ set nowrap
 set mouse=a "Permite la integracion con el mouse
 set cursorline "Muestra la linea actual activa
 set colorcolumn=120 "Muestra una linea de limite de 120 caracteres
-set clipboard=unnamedplus "Permite utilizar el clipboard del sistema
+if has('mac')
+  set clipboard=unnamed
+else
+  set clipboard=unnamedplus "Permite utilizar el clipboard del sistema
+endif
 set encoding=UTF-8 "Codificacion de los archivos
 set numberwidth=1
 set ruler
